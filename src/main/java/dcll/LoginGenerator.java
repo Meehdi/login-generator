@@ -10,6 +10,7 @@ public class LoginGenerator {
 
     /**
      * instance de la classe Loginserice.
+     *
      */
 
     private LoginService loginService;
@@ -21,6 +22,7 @@ public class LoginGenerator {
     public LoginGenerator(final LoginService leLoginService) {
         loginService = leLoginService;
     }
+
 
     /**
      * Genere un login unique a partir d'un nom et d'un
