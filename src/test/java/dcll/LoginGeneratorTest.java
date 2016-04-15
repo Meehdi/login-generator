@@ -27,9 +27,15 @@ public class LoginGeneratorTest {
         loginGenerator.generateLoginForNomAndPrenom("Roley", "Jean");
         String cR =
         loginGenerator.generateLoginForNomAndPrenom("RONALDO", "Cristiano");
+        String pDu =
+        loginGenerator.generateLoginForNomAndPrenom("DU", "Paul");
+        String jrall =
+        loginGenerator.generateLoginForNomAndPrenom("RALLING","John");
         Assert.assertEquals("JROL1", jRol);
         Assert.assertEquals("CRON", cR);
-        Assert.assertEquals("JRAL1", jRal);
+        Assert.assertEquals("JRAL2", jRal);
+        Assert.assertEquals("PDU", pDu);
+        Assert.assertEquals("JRAL3", jrall);
 
     }
 }
